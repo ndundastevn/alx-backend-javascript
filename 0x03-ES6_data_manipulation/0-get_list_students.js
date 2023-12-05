@@ -1,5 +1,5 @@
 export default function getListStudents(){
-	var students = [
+	const students = [
 		{
 			firstName: "Guillaume", id: 1, location: "San Francisco"
 		},
@@ -10,6 +10,6 @@ export default function getListStudents(){
 			firstName: "Serena", id: 5, location: "San Francisco"
 		}
 	]
-	return students
+	return students;
 }
 
