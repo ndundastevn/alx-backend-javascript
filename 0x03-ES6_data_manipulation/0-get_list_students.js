@@ -1,4 +1,4 @@
-function getListStudents(){
+export default function getListStudents(){
 	var students = [
 		{
 			firstName: "Guillaume", id: 1, location: "San Francisco"
