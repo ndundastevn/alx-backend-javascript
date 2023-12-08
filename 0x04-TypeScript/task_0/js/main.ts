@@ -1,6 +1,6 @@
 
 /**
- * Write an interface named Studentthat accepts the
+ * interface named Student that accepts the
  * following elements:
  * - firstName(string),
  * - lastName(string),
@@ -16,7 +16,7 @@ export interface Student {
 }
 
 /**
- * Create two students, and create an array named studentsList
+ * Create two students, and an array named studentsList
  * containing the two variables
  */
 
@@ -41,14 +41,14 @@ const studentsList: Array<Student> = [
 
 
 /**
- * - Using Vanilla Javascript, render a table and for each elements in the array,
- * append a new row to the table
+ * -render a table and for each elements in the array,
+ * append a new row to the table Using Vanilla Javascript,
  * 
  * - Each row should contain the first name of the student and the location
  */
 
 export const renderTable = (studentsList: Array<Student>): void =>  {
-  // create table tag
+  // create table
   const table = document.createElement('table');
   const headRow = document.createElement('tr');
   table.insertAdjacentElement('beforeend', headRow);
